@@ -1,1 +1,1 @@
-# ShronBot
+# Hapuga Bot
