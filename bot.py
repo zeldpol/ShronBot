@@ -4,7 +4,6 @@ from PIL import Image
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 bot = tb.TeleBot(BOT_TOKEN)
-default_sticker = 'CAACAgIAAxkBAAMkY88BJRnBwyokVQ6BzCq6SgHs0NEAAuEAA7I2kBle3L5OTD-jGC0E'
 bot_info = bot.get_me()
 welcome_text= "Welcome to the club, buddy! Send me a sticker from any pack and I'll create you your own personal pack. If you send me a sticker from this pack, I'll delete it. Enjoy"
 
@@ -87,7 +86,8 @@ def image2sticker(message):
 
 @bot.message_handler(func=lambda msg: True)
 def echo_all(message):
-    bot.send_message(message.chat.id, 'pong')
+    bot.send_message(message.chat.id, "pong")
+
 
 bot.infinity_polling()
 
