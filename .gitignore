@@ -130,3 +130,6 @@ dmypy.json
 
 #Debug folder
 /debug
+
+#Temp files
+/tmp
