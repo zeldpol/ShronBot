@@ -12,7 +12,7 @@ MAX_IMAGE_SIZE = 512
 MAX_VN_LEN = 3
 
 welcome_text = """Welcome to the club, buddy! 
-* I'll create your own personalised pack by sending you a static or animated sticker from any pack. Note: Animated stickers and static stickers are stored in separate sets of stickers. 
+* I'll create your own personalized pack by sending you a static or animated sticker from any pack. Note: Animated stickers and static stickers are stored in separate sets of stickers. 
 * Send me a sticker from our set, I'll delete it. 
 * Send me an image. I'll add it to your static set.
 Enjoy!"""

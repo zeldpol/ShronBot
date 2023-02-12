@@ -1,0 +1,2 @@
+pyTelegramBotAPI==4.9.0
+pillow==9.4.0
